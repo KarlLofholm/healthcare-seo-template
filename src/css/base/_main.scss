@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: $baseFontFamily;
+  font-size: $baseFontSizeLarge;
+  font-weight: 400;
+  color: $grayDark;
+  @media #{$medium} {
+    font-size: $baseFontSizeMedium;
+  }
+  @media #{$small} {
+    font-size: $baseFontSizeSmall;
+  }
+}
+
+body {
+  position: relative;
+  font-size: rem(16);
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+button {
+  cursor: pointer;
+  font-family: $baseFontFamily;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: $brandPrimary;
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  margin: 0;
+  border-top: 1px solid $gray;
+}

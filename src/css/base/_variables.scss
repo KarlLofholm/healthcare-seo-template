@@ -1,0 +1,25 @@
+$baseFontFamily: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$baseFontSizeLarge: 62.5%;
+$baseFontSizeMedium: 50%;
+$baseFontSizeSmall: 37.5%;
+
+$brandPrimary: #6ACCBA;
+$white: #ffffff;
+$black: #000000;
+$grayDark: #525259;
+$gray: #e0e0e0;
+$grayLighter: #eee;
+
+/* Break Points */
+$xxsmall: "screen and (max-width: 350px)";
+$xsmall: "screen and (max-width: 640px)";
+$small: "screen and (max-width: 800px)";
+$medium: "screen and (max-width: 970px)";
+$large: "screen and (max-width: 1440px)";
+$xlarge: "screen and (max-width: 1700px)";
+$xxsmallMin: "screen and (min-width: 351px)";
+$xsmallMin: "screen and (min-width: 641px)";
+$smallMin: "screen and (min-width: 801px)";
+$mediumMin: "screen and (min-width: 971px)";
+$largeMin: "screen and (min-width: 1441px)";
+$xlargeMin: "screen and (min-width: 1701px)";

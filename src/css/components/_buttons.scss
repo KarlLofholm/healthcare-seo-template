@@ -1,0 +1,31 @@
+$btn-google-play: '../images/buttons/google-play-btn.svg';
+$btn-app-store: '../images/buttons/app-store-btn.svg';
+$btn-web-browser: '../images/buttons/use-app-in-browser-btn.svg';
+
+.btn {
+  }
+
+.download-app-btn {
+  display: inline-block;
+  width: 140px;
+  height: 47px;
+  text-indent: -9999em;
+  margin-top: 10px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--google-play {
+    background-image: url("#{$btn-google-play}");
+    margin-right: 10px;
+  }
+
+  &--app-store {
+    background-image: url("#{$btn-app-store}");
+  }
+
+  &--web-browser {
+    width: 293px;
+    background-image: url("#{$btn-web-browser}");
+  }
+}
