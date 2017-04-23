@@ -1355,7 +1355,7 @@ hr {
       background-repeat: no-repeat;
       background-position: top left;
       background-size: 25px 25px;
-      background-image: url("../images/checkmark.svg"); }
+      background-image: url("../images/checkmark.png"); }
       @media screen and (max-width: 970px) {
         .checkmark-list li::before {
           top: -3px; } }

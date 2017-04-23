@@ -1,29 +1,12 @@
-# README #
+# README
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Page template for healthcare company.
 
-### What is this repository for? ###
+[See live version](https://dl.dropboxusercontent.com/u/404771/Kry/urinvagsinfektion.html)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Technologies used
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+-   HTML5
+-   SCSS
+-   Autoprefixer
+-   [Codekit](https://codekitapp.com/) and Kit-templates

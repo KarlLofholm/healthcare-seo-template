@@ -29,9 +29,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -320,6 +320,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/images\/brag-nordic.png": {
+		"ft": 32768,
+		"iS": 26511,
+		"oA": 0,
+		"oAP": "\/build\/images\/brag-nordic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/images\/button-sprite.png": {
 		"ft": 32768,
 		"iS": 47227,
@@ -331,15 +342,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/images\/checkmark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/checkmark.svg",
+	"\/src\/images\/checkmark.png": {
+		"ft": 32768,
+		"iS": 2338,
+		"oA": 0,
+		"oAP": "\/build\/images\/checkmark.png",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/src\/images\/favicon-196x196.png": {
 		"ft": 32768,
