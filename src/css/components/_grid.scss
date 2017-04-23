@@ -1,9 +1,9 @@
 $total-no-col: 12;
 $gutter: 30px;
-$max-width-xl: 1800px;
-$max-width-lg: 1500px;
-$max-width-md: 1100px;
-$max-width-sm: 800px;
+$max-width-xl: 1600px;
+$max-width-lg: 1400px;
+$max-width-md: 1200px;
+$max-width-sm: 960px;
 @function colWidth($current-col-num, $context: $total-no-col) {
    @return #{((100 / $context) * $current-col-num) * 1%};
 }

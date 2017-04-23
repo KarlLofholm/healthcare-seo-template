@@ -1,2 +1,104 @@
+$btn-google-play: '../images/google-play-btn.svg';
+
 .main-footer {
+  background: $backgroundFooter;
+  padding: rem(100) 0;
+
+  &__logo {
+    max-width: 130px;
+    margin-bottom: rem(50);
   }
+  // 5c707d
+  &__nav-headline {
+    color: $grayOneFooter;
+    font-size: rem(15);
+  }
+
+  &__nav-list {
+    ul {
+      list-style: none;
+      min-height: 160px;
+
+      li {
+        margin: rem(5) 0;
+
+        a {
+          color: $white;
+          font-weight: 300;
+          font-size: rem(18);
+
+          &:active,
+          &:focus,
+          &:hover {
+            color: $brandPrimary;
+          }
+        }
+      }
+    }
+  }
+
+  &__nav-icons {
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__brag {
+    text-align: right;
+    @media #{$medium} {
+      text-align: left;
+    }
+  }
+
+  &__brag-img {
+    display: inline-block;
+
+    &--internetworld {
+      width: 80px;
+      height: 80px;
+      @media #{$medium} {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    &--nordic {
+      width: 100px;
+      height: 100px;
+      @media #{$medium} {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+  }
+
+  &__divider {
+    border-top-color: $grayTwoFooter;
+    border-width: 2px;
+    margin-top: rem(100);
+  }
+
+  &__legal-copy {
+    color: $grayThreeFooter;
+    font-size: rem(15);
+    max-width: 600px;
+    margin-top: rem(50);
+    @media #{$medium} {
+      max-width: 400px;
+    }
+  }
+
+  &__app-links {
+    text-align: right;
+    margin-top: rem(50);
+    vertical-align: top;
+    @media #{$medium} {
+      text-align: left;
+    }
+  }
+}

@@ -1,31 +1,105 @@
-$btn-google-play: '../images/buttons/google-play-btn.svg';
-$btn-app-store: '../images/buttons/app-store-btn.svg';
-$btn-web-browser: '../images/buttons/use-app-in-browser-btn.svg';
+$btn-google-play: '../images/google-play-btn.svg';
+$btn-app-store: '../images/app-store-btn.svg';
+$btn-google-play-outline: '../images/google-play-outline-btn.svg';
+$btn-app-store-outline: '../images/app-store-outline-btn.svg';
+$btn-contact-button-sprite: '../images/button-sprite.png';
 
 .btn {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+
+  &--primary {
+    color: $white;
+    background-color: $brandPrimary;
+    border-color: $brandPrimary;
   }
+
+  &--full {
+    width: 100%;
+  }
+}
 
 .download-app-btn {
   display: inline-block;
-  width: 140px;
-  height: 47px;
+  width: 130px;
+  height: 38px;
   text-indent: -9999em;
-  margin-top: 10px;
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
 
   &--google-play {
     background-image: url("#{$btn-google-play}");
-    margin-right: 10px;
   }
 
   &--app-store {
     background-image: url("#{$btn-app-store}");
   }
 
-  &--web-browser {
-    width: 293px;
-    background-image: url("#{$btn-web-browser}");
+  &--google-play-outline {
+    background-image: url("#{$btn-google-play-outline}");
+  }
+
+  &--app-store-outline {
+    background-image: url("#{$btn-app-store-outline}");
+  }
+
+  &--large {
+    width: 150px;
+    height: 44px;
+  }
+}
+
+.contact-icon-btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999em;
+  background-image: url("#{$btn-contact-button-sprite}");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &--facebook {
+    background-position: 0 0;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-position: 0 -50px;
+    }
+  }
+
+  &--instagram {
+    background-position: 0 -100px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-position: 0 -150px;
+    }
+  }
+
+  &--phone {
+    background-position: 0 -200px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-position: 0 -250px;
+    }
   }
 }

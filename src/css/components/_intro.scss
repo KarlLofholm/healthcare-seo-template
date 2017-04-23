@@ -1,0 +1,12 @@
+.intro {
+  background: $brandPrimaryLight;
+  margin-bottom: rem(70);
+
+  &__headline {
+    color: $brandPrimary;
+    margin: rem(150) 0;
+    @media #{$medium} {
+      margin: rem(75) 0;
+    }
+  }
+}

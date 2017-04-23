@@ -1,0 +1,40 @@
+.testimonial {
+  position: relative;
+  max-width: 400px;
+  margin: rem(50) auto 0;
+
+  &__image {
+    img {
+      border-radius: 50%;
+      max-width: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__text {
+    &:before {
+      display: block;
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: 30px 30px;
+      background-image: url("../images/quote.svg");
+    }
+    font-size: rem(18);
+    margin-left: 120px;
+
+    p {
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+
+  &__name {
+    font-weight: 400;
+    display: block;
+  }
+}

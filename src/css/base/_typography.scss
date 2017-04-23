@@ -9,16 +9,22 @@ h6 {
 
 .h1,
 h1 {
-  font-size: rem(56);
+  font-size: rem(58);
   margin-bottom: rem(10);
   font-weight: 700;
+  @media #{$xsmall} {
+    font-size: rem(36);
+  }
 }
 
 .h2,
 h2 {
-  font-size: rem(42);
+  font-size: rem(36);
   margin-bottom: rem(10);
   font-weight: 700;
+  @media #{$xsmall} {
+    font-size: rem(30);
+  }
 }
 
 .h3,
@@ -26,12 +32,18 @@ h3 {
   font-size: rem(28);
   margin-bottom: rem(10);
   font-weight: 700;
+  @media #{$xsmall} {
+    font-size: rem(24);
+  }
 }
 
 .h4,
 h4 {
   font-size: rem(24);
   font-weight: 700;
+  @media #{$xsmall} {
+    font-size: rem(22);
+  }
 }
 
 .h5,
@@ -67,7 +79,7 @@ a {
   h6 {
     margin-top: rem(30);
     margin-bottom: rem(10);
-    font-weight: 400;
+    font-weight: 300;
 
     &:first-child {
       margin-top: 0;

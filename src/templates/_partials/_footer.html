@@ -1,47 +1,67 @@
-<footer class="main-footer" style="background:#ccc;">
+<footer class="main-footer">
   <div class="container">
     <div class="row">
       <div class="col col--3 col--md-12">
-        <img src="images/logo-w-text.svg" alt="Kry - Läkarbesök i mobilen">
+        <img class="main-footer__logo" src="images/logo-w--white-text.svg" alt="Kry - Läkarbesök i mobilen">
+
       </div>
-      <div class="col col--2 col--md-6">
-        <h2>Navigera</h2>
-        <ul>
-          <li><a href="#">Så funkar det</a></li>
-          <li><a href="#">Vanliga frågor</a></li>
-          <li><a href="#">Om oss</a></li>
-          <li><a href="#">Jobba med oss</a></li>
-          <li><a href="#">För företag</a></li>
-        </ul>
+      <div class="col col--2 col--md-4 col--sm-6">
+        <div class="main-footer__nav-list">
+          <h2 class="main-footer__nav-headline">Navigera</h2>
+          <ul>
+            <li><a href="#">Så funkar det</a></li>
+            <li><a href="#">Vanliga frågor</a></li>
+            <li><a href="#">Om oss</a></li>
+            <li><a href="#">Jobba med oss</a></li>
+            <li><a href="#">För företag</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col col--2 col--md-6">
-        <h2>Socialt</h2>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
+      <div class="col col--2 col--md-8 col--sm-6">
+        <div class="main-footer__nav-list">
+          <h2 class="main-footer__nav-headline">Socialt</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col col--2 col--md-6">
-        <h2>Kontakt</h2>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
+      <div class="col col--3 col--md-4 col--sm-7">
+        <div class="main-footer__nav-icons">
+          <h2 class="hidden-md main-footer__nav-headline">Kontakt</h2>
+          <ul>
+            <li><a class="contact-icon-btn contact-icon-btn--facebook" href="#">Facebook</a></li>
+            <li><a class="contact-icon-btn contact-icon-btn--instagram" href="#">Instagram</a></li>
+            <li><a class="contact-icon-btn contact-icon-btn--phone" href="#">Telefon</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col col--3 col--md-6">
-        <img src="images/brag-internetworld.png">
-        <img src="images/brag-nordic.png">
+      <div class="col col--2 col--md-6 col--sm-5">
+        <div class="main-footer__brag">
+          <div class="main-footer__brag-img main-footer__brag-img--internetworld">
+            <img src="images/brag-internetworld.png">
+          </div>
+          <div class="main-footer__brag-img main-footer__brag-img--nordic">
+            <img src="images/brag-nordic.png">
+          </div>
+        </div>
       </div>
     </div>
+    <hr class="main-footer__divider">
   </div>
-  <hr>
   <div class="container">
-    <p class="footer-copy">KRY drivs och ägs av Webbhälsa AB (556967-0820).</p>
-    <div class="app-links">
-      <a href="btn">Hämta i App Store</a>
-      <a href="btn">Ladda ner på på Google Play</a>
+    <div class="row">
+      <div class="col col--6 col--md-12">
+        <p class="main-footer__legal-copy">KRY drivs och ägs av Webbhälsa AB (556967-0820). KRY erbjuder vård för hela Sverige genom Läkarhuset i Tranås, som
+          ingår i vårdvalet Jönköpings län.</p>
+      </div>
+      <div class="col col--6 col--md-12">
+        <div class="main-footer__app-links">
+          <a href="#" class="download-app-btn download-app-btn--app-store-outline download-app-btn--large"></a>
+          <a href="#" class="download-app-btn download-app-btn--google-play-outline download-app-btn--large"></a>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

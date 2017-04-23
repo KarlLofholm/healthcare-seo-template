@@ -1,1 +1,130 @@
-.main-header {}
+main {
+  @media #{$medium} {
+    padding-top: 100px;
+  }
+  @media #{$xsmall} {
+    padding-top: 60px;
+  }
+}
+
+.main-header {
+  background: $brandPrimaryLight;
+  @media #{$medium} {
+    background: $white;
+    height: 100px;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid #e1eee8;
+  }
+  @media #{$xsmall} {
+    height: 60px;
+    padding: 10px 0;
+  }
+
+  &__large {
+    padding: rem(40) 0 rem(30);
+    border-bottom: 2px solid #e1eee8;
+
+    .site-logo {
+      width: rem(100);
+      float: left;
+    }
+
+    .main-nav {
+      float: right;
+
+      ul {
+        list-style: none;
+
+        li {
+          display: inline-block;
+          padding-left: rem(55);
+
+          a {
+            color: $grayDark;
+
+            &:active,
+            &:focus,
+            &:hover {
+              color: $brandPrimary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__small {
+    .small-site-logo {
+      display: block;
+      position: relative;
+      float: left;
+
+      &__image {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        border: 1px solid $grayLight;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media #{$xsmall} {
+          width: 40px;
+          height: 40px;
+          padding: 5px;
+        }
+      }
+
+      &__text {
+        position: absolute;
+        left: 70px;
+        top: 8px;
+        @media #{$xsmall} {
+          left: 46px;
+          top: 6px;
+        }
+
+        h1 {
+          font-size: 18px;
+          color: $grayDark;
+          line-height: 1;
+          @media #{$xsmall} {
+            font-size: 14px;
+            line-height: 0.75;
+          }
+        }
+
+        h2 {
+          font-size: 18px;
+          line-height: 1;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          font-weight: 400;
+          @media #{$xsmall} {
+            font-size: 12px;
+            line-height: 0.75;
+          }
+        }
+      }
+    }
+
+    .cta-button {
+      float: right;
+      text-align: right;
+
+      .btn {
+        @media #{$xsmall} {
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
+
+}

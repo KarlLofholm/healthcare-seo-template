@@ -1,0 +1,21 @@
+.ads {
+  .ad {
+    background: $brandPrimary;
+    padding: rem(35);
+
+    &__headline {
+      font-size: rem(16);
+      color: $white;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    &__cta-buttons {
+      text-align: center;
+
+      .download-app-btn {
+        margin-top: 10px;
+      }
+    }
+  }
+}

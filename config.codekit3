@@ -130,6 +130,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/components\/_ads.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_ads.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/components\/_articel-nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_articel-nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/components\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -139,6 +165,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/css\/components\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/components\/_call-to-action.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_call-to-action.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/components\/_checkmark-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_checkmark-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -165,6 +217,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/css\/components\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/components\/_intro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_intro.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -204,6 +269,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/css\/components\/_nuggets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/css\/components\/_testimonial.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/_testimonial.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -336,6 +414,36 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/src\/images\/quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/images\/testimonial-1.jpg": {
+		"ft": 16384,
+		"iS": 67301,
+		"oA": 0,
+		"oAP": "\/build\/images\/testimonial-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/testimonial-2.jpg": {
+		"ft": 16384,
+		"iS": 7470,
+		"oA": 0,
+		"oAP": "\/build\/images\/testimonial-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/src\/js\/app.js": {
 		"ft": 64,

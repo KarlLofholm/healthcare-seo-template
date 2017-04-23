@@ -1,0 +1,23 @@
+.articel-nav {
+  border: 1px solid $grayLightest;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: block;
+      padding: rem(20) rem(25);
+      border-bottom: 1px solid $grayLightest;
+
+      a {
+        color: $gray;
+
+        &:active,
+        &:focus,
+        &:hover {
+          color: $brandPrimary;
+        }
+      }
+    }
+  }
+}

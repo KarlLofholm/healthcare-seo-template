@@ -1,14 +1,21 @@
 $baseFontFamily: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $baseFontSizeLarge: 62.5%;
-$baseFontSizeMedium: 50%;
-$baseFontSizeSmall: 37.5%;
+$baseFontSizeMedium: 56.75%;
+$baseFontSizeSmall: 50%;
 
 $brandPrimary: #6ACCBA;
+$brandPrimaryLight: #ebf8f2;
 $white: #ffffff;
 $black: #000000;
 $grayDark: #525259;
-$gray: #e0e0e0;
-$grayLighter: #eee;
+$gray: #99a7a0;
+$grayLight: #e4e3ef;
+$grayLightest: #eaeaec;
+
+$backgroundFooter: #242c31;
+$grayOneFooter: #5c707d;
+$grayTwoFooter: #2e383e;
+$grayThreeFooter: #4D585F;
 
 /* Break Points */
 $xxsmall: "screen and (max-width: 350px)";
