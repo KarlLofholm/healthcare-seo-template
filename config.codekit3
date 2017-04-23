@@ -316,29 +316,18 @@
 		"oAP": "\/build\/images\/brag-internetworld.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/images\/brag-nordic.png": {
-		"ft": 32768,
-		"iS": 166023,
-		"oA": 0,
-		"oAP": "\/build\/images\/brag-nordic.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/src\/images\/button-sprite.png": {
 		"ft": 32768,
-		"iS": 75493,
+		"iS": 47227,
 		"oA": 0,
 		"oAP": "\/build\/images\/button-sprite.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -359,7 +348,7 @@
 		"oAP": "\/build\/images\/favicon-196x196.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -380,7 +369,7 @@
 		"oAP": "\/build\/images\/iphone.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -401,19 +390,9 @@
 		"oAP": "\/build\/images\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/src\/images\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/images\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/src\/images\/quote.svg": {
 		"ft": 2097152,
@@ -432,7 +411,7 @@
 		"oAP": "\/build\/images\/testimonial-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/src\/images\/testimonial-2.jpg": {
@@ -442,44 +421,8 @@
 		"oAP": "\/build\/images\/testimonial-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
-		},
-	"\/src\/js\/app.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/src\/js\/modules\/scrollTonav.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/modules\/scrollTonav-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/src\/js\/modules\/scrollToTarget.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/modules\/scrollToTarget-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/src\/js\/vendor\/jquery.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/vendor\/jquery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/src\/templates\/_partials\/_footer.html": {
 		"ft": 8192,

@@ -779,18 +779,11 @@ hr {
         text-align: left; } }
   .main-footer__brag-img {
     display: inline-block; }
-    .main-footer__brag-img--internetworld {
+    .main-footer__brag-img img {
       width: 80px;
       height: 80px; }
       @media screen and (max-width: 970px) {
-        .main-footer__brag-img--internetworld {
-          width: 40px;
-          height: 40px; } }
-    .main-footer__brag-img--nordic {
-      width: 100px;
-      height: 100px; }
-      @media screen and (max-width: 970px) {
-        .main-footer__brag-img--nordic {
+        .main-footer__brag-img img {
           width: 50px;
           height: 50px; } }
   .main-footer__divider {

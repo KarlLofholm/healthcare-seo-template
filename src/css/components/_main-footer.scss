@@ -57,18 +57,9 @@ $btn-google-play: '../images/google-play-btn.svg';
   &__brag-img {
     display: inline-block;
 
-    &--internetworld {
+    img {
       width: 80px;
       height: 80px;
-      @media #{$medium} {
-        width: 40px;
-        height: 40px;
-      }
-    }
-
-    &--nordic {
-      width: 100px;
-      height: 100px;
       @media #{$medium} {
         width: 50px;
         height: 50px;
